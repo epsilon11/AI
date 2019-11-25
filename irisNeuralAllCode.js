@@ -63,7 +63,7 @@ const testData = shuffledData.slice(75,99); //taking the last 25 samples and use
 //create a simple feed forward neural network with backpropagation
 const net = new brain.NeuralNetwork({
   activation: 'sigmoid', // activation function
-  hiddenLayers: [2],
+  hiddenLayers: [4],
   iterations: 200,
   learningRate: 0.5 // global learning rate, useful when training using streams
 });
